@@ -16,21 +16,21 @@ export class SwitchSavePage {
         this.elements.SwitchSaveWithTelnyx().scrollIntoView().should('have.text','Switch + Save with Telnyx.');
     }
     clickSMSButton() {
-        this.elements.SMSButton().click();
+        this.elements.SMSButton().wait(5000).click();
     }
     checkTelnyxCost() {
-        this.elements.TelnyxCost().wait(4500).should('have.text','$2,540');
+        this.elements.TelnyxCost().wait(5000).should('have.text','$2,540');
     }
     checkTwilioCost() {
-        this.elements.TwilioCost().wait(4500).should('have.text','$4,763');
+        this.elements.TwilioCost().wait(5000).should('have.text','$4,763');
     }
     clickTollFreeNumberst() {
-        this.elements.TollFreeNumbers().click();
+        this.elements.TollFreeNumbers().wait(5000).click();
     }
     clickProgrammableVoice() {
-        this.elements.ProgrammableVoice().click();
+        this.elements.ProgrammableVoice().wait(5000).click();
     }
     checkSaveUpPerMonth() {
-        this.elements.SaveUpPerMonth().should('have.text','Save up to $1840 per month');
+        this.elements.SaveUpPerMonth().wait(5000).should('have.text','Save up to $1840 per month');
     }
 }
