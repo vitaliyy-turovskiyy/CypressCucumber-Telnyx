@@ -19,10 +19,10 @@ export class SwitchSavePage {
         this.elements.SMSButton().click();
     }
     checkTelnyxCost() {
-        this.elements.TelnyxCost().should('have.text','$2,540');
+        this.elements.TelnyxCost().wait(2500).should('have.text','$2,540');
     }
     checkTwilioCost() {
-        this.elements.TwilioCost().should('have.text','$4,763');
+        this.elements.TwilioCost().wait(2500).should('have.text','$4,763');
     }
     clickTollFreeNumberst() {
         this.elements.TollFreeNumbers().click();

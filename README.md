@@ -7,7 +7,7 @@ ____
 ### Prerequisites
 - Node.js 14 or above
 - VS Code  
-- Java 8 or above, Allure Report require Java 8 or higher    
+    
 
 ### Installation  
 1. Clone the repo using:  
@@ -27,11 +27,9 @@ npm install
 ```sh
 npx cypress open
 ```
-- Run tests with Allure Report:  
+
+- Running tests in headless mode:  
 ```sh
-npm run cypress:run:allure
+npx cypress run
 ```
-- Generate and open allure report:  
-```sh
-npm run allure:generate
-```
+
