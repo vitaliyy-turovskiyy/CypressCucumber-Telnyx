@@ -9,7 +9,7 @@ export class TelnyxHomePage {
         TwitterLink : () => cy.get('footer > div> div > div:nth-child(6) > div > ul > li:nth-child(2) > a'),
         FacebookLink : () => cy.get('footer > div> div > div:nth-child(6) > div > ul > li:nth-child(3) > a'),
         CallUsButton : () => cy.get('[class="Text-sc-5o8owa-0 sc-28d89a84-0 sc-d9b163cf-7 frufKM bJzgmA"]'),
-        PhoneNumber : () => cy.get('[class="sc-d9b163cf-3 iBVdlS"]'),
+        PhoneNumber : () => cy.get('footer [class="mchNoDecorate"]'),
         SupportCenterArticle : () => cy.get('[class="header__headline"]'),
         LogInButton : () => cy.get('header > div > div > div > a:nth-child(4)'),
         LogInArticle : () => cy.get('[data-testid="login.signin.title"]'),
@@ -17,16 +17,17 @@ export class TelnyxHomePage {
         TalkToAnExpertuttonArticle : () => cy.get('[class="Text-sc-5o8owa-0 sc-3efef034-2 clNvhv cptehe"]'),
         SignUpButton : () => cy.get('li [href="/contact-us"]'),
         CreateFreeAccountArticle : () => cy.get('[class="Text-sc-5o8owa-0 sc-1e9319a3-4 gkWopw gjiitA"]'),
+        SupportCenterButton : () => cy.get('header > div > div > div > a:nth-child(3)'),
     }
   
     clickCallUsButton() {
         this.elements.CallUsButton().click();
     }
     getPhoneNumber() {
-        this.elements.PhoneNumber().should('contain','+1 888 980 9750');
+        this.elements.PhoneNumber().should('be.visible');
     }
     clickSupportCenterButton() {
-        return cy.get(' header > div > div > div > a:nth-child(3)').click();
+        this.elements.SupportCenterButton().click();
     }
     checkSupportTitle() {
         return cy.title().should('eq','Telnyx Support');

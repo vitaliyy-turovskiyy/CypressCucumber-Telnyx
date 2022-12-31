@@ -8,7 +8,7 @@ export class SignUpPage {
         UserFullName : () => cy.get('[id="full_name"]'),
         UserPassword : () => cy.get('[id="password"]'),
         TryForFreeButton : () => cy.get('[type="submit"]'),
-        EmailInput : () => cy.get('[id="email"]'),
+        EmailInput : () => cy.get('[id="email"]').wait(2000),
         CreateAccountButton : () => cy.get('[class="sc-5d3a275a-0 jdjrgE"]'),
         EmailErorMmssage : () => cy.get('[id="email_error"]'),
         FullNameErorMmssage : () => cy.get('[id="full_name_error"]'),

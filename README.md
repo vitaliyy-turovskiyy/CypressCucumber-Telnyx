@@ -32,4 +32,12 @@ npx cypress open
 ```sh
 npx cypress run
 ```
+## Report
+
+    This project uses a Mochawesome reporter. To merge and generate a report you should use commands:
+    $ npm run report:merge
+    $ npm run report:generate
+____
+
+:file_folder: The file with test cases is in the cypress/***support*** folder
 

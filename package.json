@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "report:merge": "mochawesome-merge cypress/reports/mocha/*.json | out-file -encoding ascii report.json",
+    "report:generate": "marge report.json --reportDir ./cypress/reports/mocha"
   },
   "keywords": [
     "Cypress",
@@ -15,11 +17,17 @@
   "author": "Vitalii",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.2.0"
+    "cypress": "^12.2.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.2",
+    "mochawesome-report-generator": "^6.2.0"
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress-multi-reporters": "^1.6.2",
     "esbuild": "^0.16.10"
   }
 }
