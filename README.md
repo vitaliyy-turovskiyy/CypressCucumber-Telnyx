@@ -5,8 +5,8 @@ ____
 ____
 ## Getting started
 ### Prerequisites
-- Node.js 14 or above
-- VS Code  
+- Node.js 14 or above. You can download it [here](https://nodejs.org/en/download/)
+ 
     
 
 ### Installation  
@@ -22,6 +22,7 @@ cd cypresscucumber
 ```sh
 npm install
 ```
+____
 ### Usage  
 - Open Cypress in the interactive GUI:  
 ```sh
@@ -32,12 +33,15 @@ npx cypress open
 ```sh
 npx cypress run
 ```
+____
 ## Report
 
     This project uses a Mochawesome reporter. To merge and generate a report you should use commands:
     $ npm run report:merge
     $ npm run report:generate
 ____
+
+The test report implemented through GitHub pages can be seen [here](https://vitaliyy-turovskiyy.github.io/CypressCucumber-Telnyx/)
 
 :file_folder: The file with test cases is in the cypress/***support*** folder
 

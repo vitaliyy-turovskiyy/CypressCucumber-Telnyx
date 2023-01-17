@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
-    "report:merge": "mochawesome-merge cypress/reports/mocha/*.json | out-file -encoding ascii report.json",
-    "report:generate": "marge report.json --reportDir ./cypress/reports/mocha"
+    "report:merge": "mochawesome-merge cypress/reports/mocha/*.json | out-file -encoding ascii index.json",
+    "report:generate": "marge index.json --reportDir ./cypress/reports/mocha"
   },
   "keywords": [
     "Cypress",

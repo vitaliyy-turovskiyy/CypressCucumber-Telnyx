@@ -1,14 +1,18 @@
+import { TelnyxHomePage } from '../pages/TelnyxHomePage.js';
 import { email, FullName,Password } from "../../support/testData.js"
-export class SignUpPage {
+export class SignUpPage extends TelnyxHomePage {
     
-    elements ={
+    constructor() {
+        super();
+    }
 
+    elements ={
         UserEmail : () => cy.get('[type="email"]'),
         WorkEmail : () => cy.get('[id="email"]'),
         UserFullName : () => cy.get('[id="full_name"]'),
         UserPassword : () => cy.get('[id="password"]'),
         TryForFreeButton : () => cy.get('[type="submit"]'),
-        EmailInput : () => cy.get('[id="email"]').wait(2000),
+        EmailInput : () => cy.get('[id="email"]', { timeout: 2000 }),
         CreateAccountButton : () => cy.get('[class="sc-5d3a275a-0 jdjrgE"]'),
         EmailErorMmssage : () => cy.get('[id="email_error"]'),
         FullNameErorMmssage : () => cy.get('[id="full_name_error"]'),

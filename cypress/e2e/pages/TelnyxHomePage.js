@@ -83,5 +83,4 @@ export class TelnyxHomePage {
     checkFacebookLink() {
         this.elements.FacebookLink().should('have.attr', 'href', 'https://www.facebook.com/Telnyx/');
     }
-
 }

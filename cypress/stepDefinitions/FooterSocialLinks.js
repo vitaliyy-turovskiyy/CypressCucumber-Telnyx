@@ -1,14 +1,14 @@
-import { Before, When, Then } from "@badeball/cypress-cucumber-preprocessor";
+import { When, Then, Given, } from "@badeball/cypress-cucumber-preprocessor";
 import { TelnyxHomePage } from '../e2e/pages/TelnyxHomePage.js';
 import { Helper } from "../support/helper.js";
 
 const homePage = new TelnyxHomePage();
 const helper = new Helper();
 
-Before(() => {
+Given("Open the main page of Telnyx website and close all cookies",() => {
     homePage.visit();
     cy.viewport(1366, 768);
-    helper.closeCookiePopup();
+    helper.closeCookiePopup(); 
 });
 
 When("I scroll down to the bottom of the main page", () => {

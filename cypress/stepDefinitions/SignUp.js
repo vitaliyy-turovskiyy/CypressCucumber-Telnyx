@@ -1,4 +1,4 @@
-import { Before, When, Then } from "@badeball/cypress-cucumber-preprocessor";
+import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 import { SignUpPage } from '../e2e/pages/SignUpPage.js';
 import { TelnyxHomePage } from '../e2e/pages/TelnyxHomePage.js';
 import { Helper } from "../support/helper.js";
@@ -7,9 +7,10 @@ const signupPage = new SignUpPage();
 const homePage = new TelnyxHomePage();
 const helper = new Helper();
 
-Before(() => {
+Given("The main page of “Telnyx” website and close all cookies",() => {
     homePage.visit();
-    helper.closeCookiePopup();
+    cy.viewport(1366, 768);
+    helper.closeCookiePopup(); 
 });
 
 When("I am entering an email address", () => {
