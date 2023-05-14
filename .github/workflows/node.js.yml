@@ -39,9 +39,9 @@ jobs:
          mkdir public
          cp -r cypress/videos public/videos
     - name: Merge test results into one
-      run: npx mochawesome-merge cypress/reports/mocha/*.json | out-file -encoding ascii index.json
+      run: npx mochawesome-merge cypress/reports/mocha/*.json > cypress/reports/output.json
     - name: Generate HTML report
-      run: npx marge index.json --reportDir ./cypress/reports/mocha
+      run: npx marge cypress/reports/output.json --reportDir ./ --inline
     - name: Deploy report page
       uses: peaceiris/actions-gh-pages@v3
       with:
