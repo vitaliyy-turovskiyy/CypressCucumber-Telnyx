@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 2,
-    "start": "2023-05-14T20:55:41.845Z",
-    "end": "2023-05-14T20:55:58.806Z",
-    "duration": 16961,
+    "start": "2023-05-14T21:05:19.925Z",
+    "end": "2023-05-14T21:05:39.758Z",
+    "duration": 19833,
     "testsRegistered": 2,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "164eb962-1f04-48bd-bb73-cf4b2ff175d3",
+      "uuid": "9d4f472d-a50c-4621-9a59-32d1b26487fe",
       "title": "",
       "fullFile": "cypress/e2e/features/Switch + Save with Telnyx.feature",
       "file": "cypress/e2e/features/Switch + Save with Telnyx.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "8c60196f-add9-402e-828a-17d0eeacb6e5",
+          "uuid": "ecc9ce80-f75f-42c2-af39-538016a53031",
           "title": "Testing Switch + Save with Telnyx",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Tel_14 Checking the price change after pressing the 'SMS' button in the block 'How much will you save?'",
               "fullTitle": "Testing Switch + Save with Telnyx Tel_14 Checking the price change after pressing the 'SMS' button in the block 'How much will you save?'",
               "timedOut": null,
-              "duration": 5935,
+              "duration": 9334,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `h2 [class=\"mchNoDecorate\"]`, but never found it.\n    at Object.switchSaveWithTelnyx (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/Switch%20%2B%20Save%20with%20Telnyx.feature:10473:42)\n    at SwitchSavePage.checkSwitchSaveWithTelnyx (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/Switch%20%2B%20Save%20with%20Telnyx.feature:10482:25)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/Switch%20%2B%20Save%20with%20Telnyx.feature:10524:20)\n    at Registry.runStepDefininition (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/Switch%20%2B%20Save%20with%20Telnyx.feature:8704:48)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/Switch%20%2B%20Save%20with%20Telnyx.feature:9569:48)",
                 "diff": null
               },
-              "uuid": "9271eee1-00a6-4990-b680-1e474150a639",
-              "parentUUID": "8c60196f-add9-402e-828a-17d0eeacb6e5",
+              "uuid": "b7bfa394-aceb-4f26-9d7a-19d043125ea9",
+              "parentUUID": "ecc9ce80-f75f-42c2-af39-538016a53031",
               "isHook": false,
               "skipped": false
             },
@@ -60,7 +60,7 @@
               "title": "Tel_15 Checking the price change after clicking the 'Toll-free numbers' and 'No' radio buttons in the block 'How much will you save?'",
               "fullTitle": "Testing Switch + Save with Telnyx Tel_15 Checking the price change after clicking the 'Toll-free numbers' and 'No' radio buttons in the block 'How much will you save?'",
               "timedOut": null,
-              "duration": 7953,
+              "duration": 6979,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -73,8 +73,8 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `h2 [class=\"mchNoDecorate\"]`, but never found it.\n    at Object.switchSaveWithTelnyx (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/Switch%20%2B%20Save%20with%20Telnyx.feature:10473:42)\n    at SwitchSavePage.checkSwitchSaveWithTelnyx (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/Switch%20%2B%20Save%20with%20Telnyx.feature:10482:25)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/Switch%20%2B%20Save%20with%20Telnyx.feature:10534:20)\n    at Registry.runStepDefininition (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/Switch%20%2B%20Save%20with%20Telnyx.feature:8704:48)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/Switch%20%2B%20Save%20with%20Telnyx.feature:9569:48)",
                 "diff": null
               },
-              "uuid": "b89661a1-dfd6-4eac-9e11-3af96965e564",
-              "parentUUID": "8c60196f-add9-402e-828a-17d0eeacb6e5",
+              "uuid": "c1fff0d6-56e9-4fed-9033-a98146f27d10",
+              "parentUUID": "ecc9ce80-f75f-42c2-af39-538016a53031",
               "isHook": false,
               "skipped": false
             }
@@ -82,12 +82,12 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "9271eee1-00a6-4990-b680-1e474150a639",
-            "b89661a1-dfd6-4eac-9e11-3af96965e564"
+            "b7bfa394-aceb-4f26-9d7a-19d043125ea9",
+            "c1fff0d6-56e9-4fed-9033-a98146f27d10"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 13888,
+          "duration": 16313,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

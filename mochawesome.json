@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 3,
-    "start": "2023-05-14T20:53:05.560Z",
-    "end": "2023-05-14T20:53:39.898Z",
-    "duration": 34338,
+    "start": "2023-05-14T21:01:51.042Z",
+    "end": "2023-05-14T21:02:22.966Z",
+    "duration": 31924,
     "testsRegistered": 3,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "85d74520-3bbc-48e2-b0fa-bc4094e488c1",
+      "uuid": "3fd4af2a-243f-4f9a-973a-bc6b75c7164e",
       "title": "",
       "fullFile": "cypress/e2e/features/FooterSocialLinks.feature",
       "file": "cypress/e2e/features/FooterSocialLinks.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "91bc86c9-5eae-4dee-99b9-56adf3ecc448",
+          "uuid": "d9b7c83a-4b11-426a-b1c8-f1705d976c3d",
           "title": "Testing social links at the footer of the main page",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Tel_06 The 'Connect on LinkedIn' link",
               "fullTitle": "Testing social links at the footer of the main page Tel_06 The 'Connect on LinkedIn' link",
               "timedOut": null,
-              "duration": 16562,
+              "duration": 5900,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.sc-7b6c9f9b-3`, but never found it.\n    at TelnyxHomePage.FooterBlock (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/FooterSocialLinks.feature:10149:21)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/FooterSocialLinks.feature:10205:18)\n    at Registry.runStepDefininition (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/FooterSocialLinks.feature:8704:48)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/FooterSocialLinks.feature:9569:48)",
                 "diff": null
               },
-              "uuid": "898db191-eb97-42d0-9ef0-81723dc05aaa",
-              "parentUUID": "91bc86c9-5eae-4dee-99b9-56adf3ecc448",
+              "uuid": "0c5ccb7e-a387-4ddd-997b-fff05509dc72",
+              "parentUUID": "d9b7c83a-4b11-426a-b1c8-f1705d976c3d",
               "isHook": false,
               "skipped": false
             },
@@ -60,7 +60,7 @@
               "title": "Tel_07 The 'Follow on Twitter' link",
               "fullTitle": "Testing social links at the footer of the main page Tel_07 The 'Follow on Twitter' link",
               "timedOut": null,
-              "duration": 7193,
+              "duration": 14706,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -73,8 +73,8 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.sc-7b6c9f9b-3`, but never found it.\n    at TelnyxHomePage.FooterBlock (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/FooterSocialLinks.feature:10149:21)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/FooterSocialLinks.feature:10214:18)\n    at Registry.runStepDefininition (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/FooterSocialLinks.feature:8704:48)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/FooterSocialLinks.feature:9569:48)",
                 "diff": null
               },
-              "uuid": "6e005267-0b50-4cb7-905a-57804aac930a",
-              "parentUUID": "91bc86c9-5eae-4dee-99b9-56adf3ecc448",
+              "uuid": "99f2fc80-7443-4a80-9606-88ee45341aba",
+              "parentUUID": "d9b7c83a-4b11-426a-b1c8-f1705d976c3d",
               "isHook": false,
               "skipped": false
             },
@@ -82,7 +82,7 @@
               "title": "Tel_08 The 'Follow on Facebook' link",
               "fullTitle": "Testing social links at the footer of the main page Tel_08 The 'Follow on Facebook' link",
               "timedOut": null,
-              "duration": 6800,
+              "duration": 7266,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -95,8 +95,8 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.sc-7b6c9f9b-3`, but never found it.\n    at TelnyxHomePage.FooterBlock (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/FooterSocialLinks.feature:10149:21)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/FooterSocialLinks.feature:10223:18)\n    at Registry.runStepDefininition (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/FooterSocialLinks.feature:8704:48)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/FooterSocialLinks.feature:9569:48)",
                 "diff": null
               },
-              "uuid": "8391ccfb-26e0-4cfc-b60f-7931548557c8",
-              "parentUUID": "91bc86c9-5eae-4dee-99b9-56adf3ecc448",
+              "uuid": "7d96dca0-2591-42e6-afc7-8442c7610f38",
+              "parentUUID": "d9b7c83a-4b11-426a-b1c8-f1705d976c3d",
               "isHook": false,
               "skipped": false
             }
@@ -104,13 +104,13 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "898db191-eb97-42d0-9ef0-81723dc05aaa",
-            "6e005267-0b50-4cb7-905a-57804aac930a",
-            "8391ccfb-26e0-4cfc-b60f-7931548557c8"
+            "0c5ccb7e-a387-4ddd-997b-fff05509dc72",
+            "99f2fc80-7443-4a80-9606-88ee45341aba",
+            "7d96dca0-2591-42e6-afc7-8442c7610f38"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 30555,
+          "duration": 27872,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
