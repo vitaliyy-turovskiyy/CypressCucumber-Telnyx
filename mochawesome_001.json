@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 5,
-    "start": "2023-05-14T21:02:41.131Z",
-    "end": "2023-05-14T21:03:26.225Z",
-    "duration": 45094,
+    "start": "2023-05-14T21:11:08.671Z",
+    "end": "2023-05-14T21:11:45.313Z",
+    "duration": 36642,
     "testsRegistered": 5,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "3c3a7cd2-6a7d-4d24-a15c-0bfeed7e67aa",
+      "uuid": "49479f77-51ae-442c-8f71-1cc903bc5563",
       "title": "",
       "fullFile": "cypress/e2e/features/HeaderButtons.feature",
       "file": "cypress/e2e/features/HeaderButtons.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9fc399ef-d633-4e09-b633-4d1033d30889",
+          "uuid": "c6a1af20-b1c6-4774-82ea-2da49e0eb030",
           "title": "Testing buttons in the header of the main page",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Tel_01 Clicking the 'Call Us' button",
               "fullTitle": "Testing buttons in the header of the main page Tel_01 Clicking the 'Call Us' button",
               "timedOut": null,
-              "duration": 9165,
+              "duration": 7447,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[class=\"Text-sc-5o8owa-0 sc-28d89a84-0 sc-d9b163cf-7 frufKM bJzgmA\"]`, but never found it.\n    at Object.callUsButton (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10095:34)\n    at TelnyxHomePage.clickCallUsButton (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10107:25)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10250:19)\n    at Registry.runStepDefininition (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:8704:48)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:9569:48)",
                 "diff": null
               },
-              "uuid": "5f034725-c048-4b9a-bf42-3616ac960369",
-              "parentUUID": "9fc399ef-d633-4e09-b633-4d1033d30889",
+              "uuid": "65d9a86a-2c99-48b9-98fc-42088f54d2ce",
+              "parentUUID": "c6a1af20-b1c6-4774-82ea-2da49e0eb030",
               "isHook": false,
               "skipped": false
             },
@@ -60,7 +60,7 @@
               "title": "Tel_02 Clicking the 'Support Center' button",
               "fullTitle": "Testing buttons in the header of the main page Tel_02 Clicking the 'Support Center' button",
               "timedOut": null,
-              "duration": 7320,
+              "duration": 5876,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -73,8 +73,8 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `header > div > div > div > a:nth-child(3)`, but never found it.\n    at Object.supportCenterButton (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10104:41)\n    at TelnyxHomePage.clickSupportCenterButton (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10113:25)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10256:19)\n    at Registry.runStepDefininition (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:8704:48)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:9569:48)",
                 "diff": null
               },
-              "uuid": "f3743a85-ecbd-402b-88d6-9821b37dc3f7",
-              "parentUUID": "9fc399ef-d633-4e09-b633-4d1033d30889",
+              "uuid": "27bf6c63-47a5-4bfe-abed-110d43f8f8a6",
+              "parentUUID": "c6a1af20-b1c6-4774-82ea-2da49e0eb030",
               "isHook": false,
               "skipped": false
             },
@@ -82,7 +82,7 @@
               "title": "Tel_03 Clicking the 'Log In' button",
               "fullTitle": "Testing buttons in the header of the main page Tel_03 Clicking the 'Log In' button",
               "timedOut": null,
-              "duration": 7617,
+              "duration": 7139,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -95,8 +95,8 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `header > div > div > div > a:nth-child(4)`, but never found it.\n    at Object.logInButton (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10098:33)\n    at TelnyxHomePage.clickLogInButton (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10122:25)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10265:19)\n    at Registry.runStepDefininition (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:8704:48)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:9569:48)",
                 "diff": null
               },
-              "uuid": "a94fc9c1-9c48-4f29-b6f5-933b6bbc18f6",
-              "parentUUID": "9fc399ef-d633-4e09-b633-4d1033d30889",
+              "uuid": "8d184a9b-e107-47ee-ac8d-317e34a1d583",
+              "parentUUID": "c6a1af20-b1c6-4774-82ea-2da49e0eb030",
               "isHook": false,
               "skipped": false
             },
@@ -104,7 +104,7 @@
               "title": "Tel_04 Clicking the 'Talk to an expert' button",
               "fullTitle": "Testing buttons in the header of the main page Tel_04 Clicking the 'Talk to an expert' button",
               "timedOut": null,
-              "duration": 7950,
+              "duration": 5861,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -117,8 +117,8 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `li [href=\"/contact-us\"]`, but never found it.\n    at Object.talkToAnExpertButton (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10100:42)\n    at TelnyxHomePage.clickTalkToAnExpertButton (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10131:25)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10274:19)\n    at Registry.runStepDefininition (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:8704:48)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:9569:48)",
                 "diff": null
               },
-              "uuid": "b082ed8b-acbc-409a-9d6a-c08be510daee",
-              "parentUUID": "9fc399ef-d633-4e09-b633-4d1033d30889",
+              "uuid": "53c2d1b8-688a-497c-9cc3-03b8aa33ad78",
+              "parentUUID": "c6a1af20-b1c6-4774-82ea-2da49e0eb030",
               "isHook": false,
               "skipped": false
             },
@@ -126,7 +126,7 @@
               "title": "Tel_05 Clicking the 'Sign Up' button",
               "fullTitle": "Testing buttons in the header of the main page Tel_05 Clicking the 'Sign Up' button",
               "timedOut": null,
-              "duration": 7533,
+              "duration": 7445,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -139,8 +139,8 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `li [href=\"/contact-us\"]`, but never found it.\n    at Object.signUpButton (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10102:34)\n    at TelnyxHomePage.clickSignUpButton (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10140:25)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:10283:19)\n    at Registry.runStepDefininition (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:8704:48)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress/e2e/features/HeaderButtons.feature:9569:48)",
                 "diff": null
               },
-              "uuid": "7c845d00-666b-4ccf-825c-e71162522ec6",
-              "parentUUID": "9fc399ef-d633-4e09-b633-4d1033d30889",
+              "uuid": "80cacf03-2c16-4eb2-892a-a685e41336a0",
+              "parentUUID": "c6a1af20-b1c6-4774-82ea-2da49e0eb030",
               "isHook": false,
               "skipped": false
             }
@@ -148,15 +148,15 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "5f034725-c048-4b9a-bf42-3616ac960369",
-            "f3743a85-ecbd-402b-88d6-9821b37dc3f7",
-            "a94fc9c1-9c48-4f29-b6f5-933b6bbc18f6",
-            "b082ed8b-acbc-409a-9d6a-c08be510daee",
-            "7c845d00-666b-4ccf-825c-e71162522ec6"
+            "65d9a86a-2c99-48b9-98fc-42088f54d2ce",
+            "27bf6c63-47a5-4bfe-abed-110d43f8f8a6",
+            "8d184a9b-e107-47ee-ac8d-317e34a1d583",
+            "53c2d1b8-688a-497c-9cc3-03b8aa33ad78",
+            "80cacf03-2c16-4eb2-892a-a685e41336a0"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 39585,
+          "duration": 33768,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
